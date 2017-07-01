@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		078014261F07FC51002A798E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078014251F07FC51002A798E /* Constants.swift */; };
 		0789A8671F06B26B007EEBF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0789A8661F06B26B007EEBF4 /* AppDelegate.swift */; };
 		0789A8691F06B26B007EEBF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0789A8681F06B26B007EEBF4 /* ViewController.swift */; };
 		0789A86C1F06B26B007EEBF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0789A86A1F06B26B007EEBF4 /* Main.storyboard */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		078014251F07FC51002A798E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		0789A8631F06B26B007EEBF4 /* pokedex3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pokedex3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0789A8661F06B26B007EEBF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0789A8681F06B26B007EEBF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				0789A8801F070B0A007EEBF4 /* csv.swift */,
+				078014251F07FC51002A798E /* Constants.swift */,
 			);
 			name = Util;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 				0789A8691F06B26B007EEBF4 /* ViewController.swift in Sources */,
 				0789A8671F06B26B007EEBF4 /* AppDelegate.swift in Sources */,
 				5300750C1F07B68F006ACCA7 /* PokemonDetailVC.swift in Sources */,
+				078014261F07FC51002A798E /* Constants.swift in Sources */,
 				0789A87C1F06B59F007EEBF4 /* Pokemon.swift in Sources */,
 				0789A8811F070B0A007EEBF4 /* csv.swift in Sources */,
 			);
